@@ -3,11 +3,11 @@ filename = "MakeUp-UltraFast-9.4c.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0e856109783bf72e82d9a1e65713afa908ab6edd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/izsIPI7a/versions/20OMmWR5/MakeUp-UltraFast-9.4c.zip"
+hash-format = "sha512"
+hash = "c586c9e73512467140506f369668ef5c6b84122ed176d90e41016d11673e73c899bf8de3b7301d9e294f2aac36428fa87025047384420ca9673e5e5371881b21"
 
 [update]
-[update.curseforge]
-file-id = 7684712
-project-id = 431203
+[update.modrinth]
+mod-id = "izsIPI7a"
+version = "20OMmWR5"

@@ -3,11 +3,11 @@ filename = "chattoggle-5.0.1+1.21-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ff6fe8b73779e3764e262ec3ad18456c7990fd73"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/k6aAChpa/versions/2jn1Q8vS/chattoggle-5.0.1%2B1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "29cf2a772cfd8d858dd522bec31b8ac4d765bb2fecba6f09a635bed9b2eb878c57448732a030238099876b90f1f169ec4209081e97fa38872b40bbece63b49cb"
 
 [update]
-[update.curseforge]
-file-id = 5609682
-project-id = 737481
+[update.modrinth]
+mod-id = "k6aAChpa"
+version = "2jn1Q8vS"

@@ -3,11 +3,11 @@ filename = "Fine Armoury v1.7.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b56e4d596a84228281e250d76cbf9bc645432256"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/H0Q0y5Fn/versions/sXzklk0i/Fine%20Armoury%20v1.7.zip"
+hash-format = "sha512"
+hash = "7aa41e80bc16016744059bdd307523471cc2ea5af7160e24b3ce40c8b350e39bad9c246d53eee1da5f0a762bdfac5fdacbb35d0bb949debf78df275adc4a3107"
 
 [update]
-[update.curseforge]
-file-id = 7098397
-project-id = 983707
+[update.modrinth]
+mod-id = "H0Q0y5Fn"
+version = "sXzklk0i"

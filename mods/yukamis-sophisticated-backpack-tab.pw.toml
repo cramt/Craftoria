@@ -3,11 +3,11 @@ filename = "yukamibackpacktab-1.21.1-1.1.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "be72834b8fa504ac02d970c423fbc01b95861d76"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/bibWUguy/versions/D647PP67/yukamibackpacktab-1.21.1-1.1.1-neoforge.jar"
+hash-format = "sha512"
+hash = "92be23f226cd8a6e4013d818a9f47cba69bb21c3de8508e590de83491fcb648f439f05af86c59424613d24c7a252c09e571358f545dcbb2c5bea972477cedc76"
 
 [update]
-[update.curseforge]
-file-id = 7021538
-project-id = 1343253
+[update.modrinth]
+mod-id = "bibWUguy"
+version = "D647PP67"

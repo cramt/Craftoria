@@ -3,11 +3,11 @@ filename = "little-big-redstone-1.7.2-beta-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bf95eab9761a7857b5e90ee66606d377eea2fe33"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/cdz2XZgU/versions/OTyQ0yua/little-big-redstone-1.7.2-beta-1.21.1.jar"
+hash-format = "sha512"
+hash = "b183475d0439741e0208f9382cf7491ccbbdd662eef55c49a083605bd08be8fc3379d88157ec079e36c3d45a4e9b2e1fd2e317c41dfffc974d932c0e8fad7202"
 
 [update]
-[update.curseforge]
-file-id = 8098227
-project-id = 1180560
+[update.modrinth]
+mod-id = "cdz2XZgU"
+version = "OTyQ0yua"

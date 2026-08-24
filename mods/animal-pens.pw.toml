@@ -3,11 +3,11 @@ filename = "animal_pen-neoforge-1.21-2.3.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0f1350ebb752b657de0afac83bb0264bbf4cd78d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/K5CAV4wi/versions/4PW6nHth/animal_pen-neoforge-1.21-2.3.2.jar"
+hash-format = "sha512"
+hash = "cdfb8af95c6d17257ab0cf376358b224f87d6492558658367a5aeda971945628c9ac148683a2dbcaf1ae42786e257b202db48d71379c0753a2bf57f567d3d1d8"
 
 [update]
-[update.curseforge]
-file-id = 7967089
-project-id = 1206722
+[update.modrinth]
+mod-id = "K5CAV4wi"
+version = "4PW6nHth"

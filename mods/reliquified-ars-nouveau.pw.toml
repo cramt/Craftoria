@@ -3,11 +3,11 @@ filename = "reliquified_ars_nouveau-1.21.1-0.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "882aba237860441a7ad2943775ffa3cc4d6324a9"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/qNOCEdeg/versions/8L8DPUF0/reliquified_ars_nouveau-1.21.1-0.6.1.jar"
+hash-format = "sha512"
+hash = "670fc306ca5b6c9741908d35c11d5b471c4e0aa4a4379819024898f21c69cc7743ea4f13c4b9095cf1831597e5c5b559613c257cb1ccdcf09392c5ae9461fd16"
 
 [update]
-[update.curseforge]
-file-id = 6882233
-project-id = 1196449
+[update.modrinth]
+mod-id = "qNOCEdeg"
+version = "8L8DPUF0"

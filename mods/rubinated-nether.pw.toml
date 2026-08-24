@@ -3,11 +3,11 @@ filename = "rubinated_nether-2.0.1b.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3b5935cd65227d51a3c881646299ab25b091ebdc"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tn8wGyDx/versions/f1IkGJr2/rubinated_nether-2.0.1b.jar"
+hash-format = "sha512"
+hash = "3ff3924dab83bc22629fd1a1acab7100a8a864335156db564ff52daf8d97aebf2311240ce93a936a24578fa8b2adc4812018fc28357859fe72f6b88df2b39371"
 
 [update]
-[update.curseforge]
-file-id = 7317449
-project-id = 1096362
+[update.modrinth]
+mod-id = "tn8wGyDx"
+version = "f1IkGJr2"

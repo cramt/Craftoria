@@ -3,11 +3,11 @@ filename = "modernfix-neoforge-5.27.8+mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2fbce2437be5a2ac69aa093a388ca43f44245237"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/VGmSpV69/modernfix-neoforge-5.27.8%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "1433d2321321ff6c886cb5ef6e9570d40588febb115913cfc2ac4ba12039e41af8a62df1ad14db68d17fc745203e8bd4127a912b2f01cca653c2b2808631867e"
 
 [update]
-[update.curseforge]
-file-id = 8099788
-project-id = 790626
+[update.modrinth]
+mod-id = "nmDcB62a"
+version = "VGmSpV69"

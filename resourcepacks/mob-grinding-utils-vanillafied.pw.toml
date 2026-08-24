@@ -3,11 +3,11 @@ filename = "Mob Grinding Utils Vanillafied.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5355cbf9f982d12b245fffff4b1077e9c32ada0c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/jcSuF0PJ/versions/h7GiZqQi/Mob%20Grinding%20Utils%20Vanillafied.zip"
+hash-format = "sha512"
+hash = "babf284e5cd4aee82ec21140bb5136916776cdd40db059805e8d71c778cc3b239214d071ff181c6f2d12e81a6f9aebb082d84dec54c5128743f8631d4a609da9"
 
 [update]
-[update.curseforge]
-file-id = 6240614
-project-id = 1208970
+[update.modrinth]
+mod-id = "jcSuF0PJ"
+version = "h7GiZqQi"

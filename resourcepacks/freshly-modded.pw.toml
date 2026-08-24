@@ -3,11 +3,11 @@ filename = "Freshly Modded 2.0.3.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "12d70e3a386bceb5e365883b2a640ca3e64c0a70"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/u4nhiAdP/versions/Y1Qc62hs/Freshly%20Modded%202.0.3.zip"
+hash-format = "sha512"
+hash = "1919dc91a8eb5fab148b91e38c9fff0064c03f72f81408d727ce8322de4ec758cc8ddc80985f3d8a202ac00e4262c2e1fd78a094f6f53d04f88ffe4d1b2adae4"
 
 [update]
-[update.curseforge]
-file-id = 7146641
-project-id = 961754
+[update.modrinth]
+mod-id = "u4nhiAdP"
+version = "Y1Qc62hs"

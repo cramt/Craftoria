@@ -3,11 +3,11 @@ filename = "JadeAddons-1.21.1-NeoForge-6.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d0aef07e67f9e2dd7ae68f9f27d845511d8eaff3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/xuDOzCLy/versions/Z9s9lM56/JadeAddons-1.21.1-NeoForge-6.1.0.jar"
+hash-format = "sha512"
+hash = "dcf1135718e74c55d4b01116c9955b88a8c8a5180e61dc51d292479aff3d2fff38c8ca0f1b4a6e42e54644f1c8907846a61799491df455b71541aa342d8b8896"
 
 [update]
-[update.curseforge]
-file-id = 6315149
-project-id = 583345
+[update.modrinth]
+mod-id = "xuDOzCLy"
+version = "Z9s9lM56"

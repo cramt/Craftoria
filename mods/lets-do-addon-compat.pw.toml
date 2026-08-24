@@ -3,11 +3,11 @@ filename = "letsdocompat-neoforge-2.3.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5bc9d88a18793a808ecce9bab0218995c1b9f5c3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/FNi5IMiX/versions/vJUgfTU0/letsdocompat-neoforge-2.3.1.jar"
+hash-format = "sha512"
+hash = "22678b7094de594e1d8241ad709752a3fa2dce1b22706c768b18e95546c2133ad35d9b32ae70cc6925565d02bbeded9400e85d170fcb2f5c65d05792f3e761de"
 
 [update]
-[update.curseforge]
-file-id = 7064554
-project-id = 992333
+[update.modrinth]
+mod-id = "FNi5IMiX"
+version = "vJUgfTU0"

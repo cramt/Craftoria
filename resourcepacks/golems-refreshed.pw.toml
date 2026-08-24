@@ -3,11 +3,11 @@ filename = "golems-refreshed-v2.1.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5effb45f8ede7d78988ba4bbc04f7db20cc9038d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/jfJzIg2G/versions/6GByDAcy/golems-refreshed-v2.1.zip"
+hash-format = "sha512"
+hash = "7462446dd4900057f1b883a0486c1fc4677472e4b8213a34c3762fbef646fa067bf7489d7bdf47f6fcbc87a7d361af921f8b7bbe0b548ef9a796e9e2190a93af"
 
 [update]
-[update.curseforge]
-file-id = 6727965
-project-id = 874521
+[update.modrinth]
+mod-id = "jfJzIg2G"
+version = "6GByDAcy"

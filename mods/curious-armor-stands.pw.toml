@@ -3,11 +3,11 @@ filename = "curious_armor_stands-8.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "492e84151a58fb2ceb16ed3764dc183a4a5f9134"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/jR6HKqHv/versions/rTyE3mkX/curious_armor_stands-8.0.1.jar"
+hash-format = "sha512"
+hash = "4c441fddbb69f642d3af91f46c1168552911bfb4e4952b3066737f5308f5e082fd3a88e75251a1027b7096e19943edf3b5908946a48c3717235d921381e497c0"
 
 [update]
-[update.curseforge]
-file-id = 7691824
-project-id = 398784
+[update.modrinth]
+mod-id = "jR6HKqHv"
+version = "rTyE3mkX"

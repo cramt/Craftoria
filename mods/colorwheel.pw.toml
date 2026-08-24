@@ -3,11 +3,11 @@ filename = "colorwheel-neoforge-1.2.7+mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "890fccd7b569b4637feec89ac77a80b3170e16c8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/BzHgFoGz/versions/Khgr5l7P/colorwheel-neoforge-1.2.7%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "92dee58c443fe2c6ac3a26b96b95e59409312baea278a5452e8ce3619bd664406af0a146262d034a3f6a32037888708a1189d06ec901e496ca8b9caa36754ca3"
 
 [update]
-[update.curseforge]
-file-id = 8115111
-project-id = 1254143
+[update.modrinth]
+mod-id = "BzHgFoGz"
+version = "Khgr5l7P"

@@ -3,11 +3,11 @@ filename = "ars_nouveau-1.21.1-5.11.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "202512e3a48c169ea4c68c85c2208f1813a92f26"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/TKB6INcv/versions/8VP4YHYr/ars_nouveau-1.21.1-5.11.5.jar"
+hash-format = "sha512"
+hash = "7849418f985a665bfccb8e790ab560f9cf81354b2eab03eb6e03e55f270bbc611a66ecc11e09d539f2e5755bc7b680b7fa85b46c49bdee9211fb1eb9f4cfb1bc"
 
 [update]
-[update.curseforge]
-file-id = 8081100
-project-id = 401955
+[update.modrinth]
+mod-id = "TKB6INcv"
+version = "8VP4YHYr"

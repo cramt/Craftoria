@@ -3,11 +3,11 @@ filename = "nolijium-0.5.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7074fda15f70440eb1e30f74a7dc70feadd49592"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/KstN3eSL/versions/zbYZJRDt/nolijium-0.5.6.jar"
+hash-format = "sha512"
+hash = "180434401b01bedb219a9e2f350a6b7b6f9ae9749ef2e72961516f0519de249bf6d3caf48f4bb4536706a48e99162f4bcfea18b76cecdba64e791b440ba52ea1"
 
 [update]
-[update.curseforge]
-file-id = 6264798
-project-id = 969602
+[update.modrinth]
+mod-id = "KstN3eSL"
+version = "zbYZJRDt"

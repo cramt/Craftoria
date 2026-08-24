@@ -3,11 +3,11 @@ filename = "SimplePocketMachines-NeoForge-1.21.1-1.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8167b804b981b213a0048d7a1575c7da41823c4b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Cf7t0PTf/versions/A6z6oCWs/SimplePocketMachines-NeoForge-1.21.1-1.0.4.jar"
+hash-format = "sha512"
+hash = "12086afd3c8a80f7d216717d726cfc56b7e8d65ebf23222c2cb680c2573c55c455ebce837c8c544f494e2711e5db4ab7ef5114f0cc4feccda81809f7162d1b30"
 
 [update]
-[update.curseforge]
-file-id = 6979193
-project-id = 1090864
+[update.modrinth]
+mod-id = "Cf7t0PTf"
+version = "A6z6oCWs"

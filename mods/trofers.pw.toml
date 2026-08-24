@@ -3,11 +3,11 @@ filename = "trofers-neoforge-8.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ea73d6096217eb554110b758d829fca17542a47d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/wBU6XiJa/versions/FrbNhSab/trofers-neoforge-8.0.1.jar"
+hash-format = "sha512"
+hash = "bc968aa30b2c05f93a20bd8092151d657570cb8d2f04672a8851972cd585e6ca3c726771dce452d3b471dfe3b76330da98a23c18196c3c7b682ffb42c4406d86"
 
 [update]
-[update.curseforge]
-file-id = 7163548
-project-id = 482265
+[update.modrinth]
+mod-id = "wBU6XiJa"
+version = "FrbNhSab"

@@ -3,11 +3,11 @@ filename = "reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "be89d697455f04a1531ed81b45bcc038354430c8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rBEndPUc/versions/ZHAIRSeF/reliquified_lenders_cataclysm-1.21.1-0.1.1.jar"
+hash-format = "sha512"
+hash = "e33cf111802b32b433c63c61c957cc136b6e52375ad31b5c81ea5826a32a3a0b37e81fcd22a7fcb4a867efddd4afc6c5628f69a656eee4ebcf14ad2e003f4e50"
 
 [update]
-[update.curseforge]
-file-id = 6882649
-project-id = 1232116
+[update.modrinth]
+mod-id = "rBEndPUc"
+version = "ZHAIRSeF"

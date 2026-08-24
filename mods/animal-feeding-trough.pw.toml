@@ -3,11 +3,11 @@ filename = "animal_feeding_trough-1.1.2+1.21-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6c29bbeab4b2c174d9f66d6a3e9ef4e136705c5b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/bRFWnJ87/versions/9u4bmtUp/animal_feeding_trough-1.1.2%2B1.21-neoforge.jar"
+hash-format = "sha512"
+hash = "d9d5df677432ae68040ce413c6123e876d77a663ddcdc8bd06ee7d9e4f0b04b67872ce6b639cebc4bbb12259742168820a6a713032e4f1376e98a01f6e23ecb8"
 
 [update]
-[update.curseforge]
-file-id = 5617654
-project-id = 445838
+[update.modrinth]
+mod-id = "bRFWnJ87"
+version = "9u4bmtUp"

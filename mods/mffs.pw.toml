@@ -3,11 +3,11 @@ filename = "mffs-5.4.27.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d43b2a586cddde88345f80440af28f71c72e46f0"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Ir9eTVLd/versions/LxWvTKFZ/mffs-5.4.27.jar"
+hash-format = "sha512"
+hash = "809d6ef458bcc7c21f47204d30b4043f2ca1dc6bcc38a3480c7187022f334c02daa5f521f8d7f75d404dc3710e91c198a4bc3a72223dc74ce4774b422e5bf550"
 
 [update]
-[update.curseforge]
-file-id = 7370783
-project-id = 238546
+[update.modrinth]
+mod-id = "Ir9eTVLd"
+version = "LxWvTKFZ"

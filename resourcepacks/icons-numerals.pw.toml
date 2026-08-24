@@ -3,11 +3,11 @@ filename = "Icons - Numerals v.1.2.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "44ed9cfc6fe01d4532f7595a97bc2590c7b83111"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/C54EmbDN/versions/35QdDXl8/Icons%20-%20Numerals%20v.1.2.zip"
+hash-format = "sha512"
+hash = "88c50c2b142df151a32de29a02bb53cc1fb24f7e54f706d58b8815943d34da3c7a77da50b088ecfd7c9569191fec239022a2b6cd02585b65f695e2b8cfa4bd5d"
 
 [update]
-[update.curseforge]
-file-id = 7552111
-project-id = 1380493
+[update.modrinth]
+mod-id = "C54EmbDN"
+version = "35QdDXl8"

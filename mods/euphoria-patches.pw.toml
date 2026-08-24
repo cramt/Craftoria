@@ -3,11 +3,11 @@ filename = "EuphoriaPatcher-1.9.1-r5.8.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6042ad281e8bd67e8b4c4ccf46a9779b6fda2ff6"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4H6sumDB/versions/N2M7MAZq/EuphoriaPatcher-1.9.1-r5.8.1-neoforge.jar"
+hash-format = "sha512"
+hash = "cb9a753a30aaeb1043f3b13ed7752ce71143f846bdc64e6d26d8e7f9c3cc31323cc88280bf47ccf925406c22c5e3deb3eebdfdb3049c1cdeb19ad9aba859b600"
 
 [update]
-[update.curseforge]
-file-id = 8123370
-project-id = 915902
+[update.modrinth]
+mod-id = "4H6sumDB"
+version = "N2M7MAZq"

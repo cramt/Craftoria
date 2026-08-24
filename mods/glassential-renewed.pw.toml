@@ -3,11 +3,11 @@ filename = "Glassential-renewed-1.21.1-3.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c7875d444b85a019381b8ea36c21c9c93e112f8a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/kc9FSsYx/versions/nQKBhiVs/Glassential-renewed-1.21.1-3.4.2.jar"
+hash-format = "sha512"
+hash = "74532c374f87f837530f7005674f417febcb8cedf48973b5230c04ee8ee58d061dc95e186097deed197afc077d4389c331d0f8928dcc6e2f5eb964257bf48837"
 
 [update]
-[update.curseforge]
-file-id = 8070984
-project-id = 945149
+[update.modrinth]
+mod-id = "kc9FSsYx"
+version = "nQKBhiVs"

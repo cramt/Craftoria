@@ -3,11 +3,11 @@ filename = "tankstorage-1.1.1+1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ca83525e78f37f4cac29fa7878a7aabf799b1625"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4tkhj6x9/versions/uYBoEv1K/tankstorage-1.1.1%2B1.21.jar"
+hash-format = "sha512"
+hash = "72a05a6c1b98129d19c4d9c101599d3bc217eb72cbcbcffc33e928788122afb02c09fea17c7c49abbea169e6772f567ed6d85db2152c6cdcb938737c58cf8e92"
 
 [update]
-[update.curseforge]
-file-id = 6966146
-project-id = 1032670
+[update.modrinth]
+mod-id = "4tkhj6x9"
+version = "uYBoEv1K"

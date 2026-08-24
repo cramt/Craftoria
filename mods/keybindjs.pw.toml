@@ -3,11 +3,11 @@ filename = "keybindjs-2101-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "95218c0181dea86747943ec60b10a57bce1bfd29"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/g3ouhJY7/versions/2XoKpifP/keybindjs-2101-1.0.1.jar"
+hash-format = "sha512"
+hash = "9507e5c9b6138d5eed99f4b7ad7cc9e8f82e4ced8496a9a75737afb78024e4448ac63d83294f6d726e82aeb09e30741aefc027408b8ec94cad43aa0ab43fd211"
 
 [update]
-[update.curseforge]
-file-id = 6462609
-project-id = 1212200
+[update.modrinth]
+mod-id = "g3ouhJY7"
+version = "2XoKpifP"

@@ -3,11 +3,11 @@ filename = "theurgy-1.21.1-neoforge-1.73.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8ce405ecd5e98c3e6b7d8aed2746e04c7e4d7b67"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/uOVMgoil/versions/KvM1ocNj/theurgy-1.21.1-neoforge-1.73.1.jar"
+hash-format = "sha512"
+hash = "92fc8469f8245f48de61c42669dd753813293fe6e1a11f1b31148fb78c7b1d99c96dc45c0ff28febcaf7b47f5d0364a157d8bb0eb927a1ca1107f0ec0feaa06f"
 
 [update]
-[update.curseforge]
-file-id = 8062575
-project-id = 430636
+[update.modrinth]
+mod-id = "uOVMgoil"
+version = "KvM1ocNj"

@@ -3,11 +3,11 @@ filename = "smallhorsestable-1.2.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7e76295dba808a569e4128269c4cc44bcd31396f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/gfyIZI0R/versions/Z36CfAVU/smallhorsestable-1.2.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "3c442bf6796cf801bc0b1753be59d9535ede14712072bc1f73926ada6a723f809209ec7d33f0297a2b4562d0d12b973df57a95ff44a9d3446c7becbeb1189c50"
 
 [update]
-[update.curseforge]
-file-id = 6445142
-project-id = 1069321
+[update.modrinth]
+mod-id = "gfyIZI0R"
+version = "Z36CfAVU"

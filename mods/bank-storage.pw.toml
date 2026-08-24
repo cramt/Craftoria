@@ -3,11 +3,11 @@ filename = "bankstorage-1.6.1+1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "dee878f03ce749857d8a380b91f6b8f491532f72"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/RyNZlwbP/versions/ian7vJ4z/bankstorage-1.6.1%2B1.21.jar"
+hash-format = "sha512"
+hash = "5d0576d04d02f2703d3f859fcc4b2025782031859cd792d214da1ab7410a13c21b105107299f2a16b01f829e688056963a2c425255c0264aac028ad5ef29dc59"
 
 [update]
-[update.curseforge]
-file-id = 6759189
-project-id = 916710
+[update.modrinth]
+mod-id = "RyNZlwbP"
+version = "ian7vJ4z"

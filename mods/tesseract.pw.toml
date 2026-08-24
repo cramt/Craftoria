@@ -3,11 +3,11 @@ filename = "tesseract-1.0.38-neoforge-mc1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "af83e3f8ee620bb8eafed476917b7fbe8d4ca256"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OUhp5O2m/versions/ZULfqhxA/tesseract-1.0.38-neoforge-mc1.21.jar"
+hash-format = "sha512"
+hash = "63ba70351b88a491dff3a4a6593d36832c16666f45c1eb820ffec33b47e49fe91fd0b95d50db3a1fc6d807c9056fa7990aa090960e90640c29315d23cc8061af"
 
 [update]
-[update.curseforge]
-file-id = 6865558
-project-id = 379232
+[update.modrinth]
+mod-id = "OUhp5O2m"
+version = "ZULfqhxA"

@@ -3,11 +3,11 @@ filename = "villagers-refrehsed+FA-v1.0.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "21392fbfda384f084a680262ef419afdf347dfdd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/LSTBJenG/versions/VunQiGCj/villagers-refrehsed%2BFA-v1.0.zip"
+hash-format = "sha512"
+hash = "8721b3d8b0b234c9eca681f248d9bff63540d2e12e2e84a9fa2396bb4c23c96153117b4986ab6e31356af2e6ba5f550a9693555a426cbfcb5f69fad21fd8a193"
 
 [update]
-[update.curseforge]
-file-id = 5236457
-project-id = 998152
+[update.modrinth]
+mod-id = "LSTBJenG"
+version = "VunQiGCj"

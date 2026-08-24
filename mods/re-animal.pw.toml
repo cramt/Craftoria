@@ -3,11 +3,11 @@ filename = "reanimal-0.6.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d38d422a383759c26cb2b666635c5e88e023055a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4Q5qctHv/versions/yOEHRyHw/reanimal-0.6.0.jar"
+hash-format = "sha512"
+hash = "10e00f0f70d71b175df09fcd163599fcf17aca083eea629aa2639792ede2bfc0ec1f769c352d02d73172b2f1b410b28a941eed064b200a655ecf7baa8796c7d9"
 
 [update]
-[update.curseforge]
-file-id = 8024635
-project-id = 1387943
+[update.modrinth]
+mod-id = "4Q5qctHv"
+version = "yOEHRyHw"

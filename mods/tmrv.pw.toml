@@ -3,11 +3,11 @@ filename = "toomanyrecipeviewers-0.7.3+mc.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "266605572d63d834b99e930e477ee01b0b7082df"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yFypjcfd/versions/slJJPeMk/toomanyrecipeviewers-0.7.3%2Bmc.21.1.jar"
+hash-format = "sha512"
+hash = "79fc75b844bc74c40e885190cdd63f6449085f388428202ae6af175081db891bce3b67d2fba6299078f45090aefbd40e2cfbffb2c4438e82b052f83013b4c774"
 
 [update]
-[update.curseforge]
-file-id = 7983494
-project-id = 1194921
+[update.modrinth]
+mod-id = "yFypjcfd"
+version = "slJJPeMk"

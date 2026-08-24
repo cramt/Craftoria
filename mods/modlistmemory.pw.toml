@@ -3,11 +3,11 @@ filename = "modlistmemory-neoforge-1.0.0+1.21+bm-1.1.15.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7a29ac8aa2c6be0e8426be729a47169d2c98cc04"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/qap5C41G/versions/eqn0gkwx/modlistmemory-neoforge-1.0.0%2B1.21%2Bbm-1.1.15.jar"
+hash-format = "sha512"
+hash = "52a71f90b19da6d60a65b5799e5fe9598cd56db7a8166a8282007e6424c57f83d682dbd8beb55e75e6a12aa7c0ae809e2a9921c715af1bdf06522eecd9145988"
 
 [update]
-[update.curseforge]
-file-id = 6282899
-project-id = 1180596
+[update.modrinth]
+mod-id = "qap5C41G"
+version = "eqn0gkwx"

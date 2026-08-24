@@ -3,11 +3,11 @@ filename = "EnderEyes_1.21.11_v3.1.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "07496da6987cba4079ca264421e88c0d574a47f1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/6GgEjSHS/versions/rCh8D1wH/EnderEyes_1.21.11_v3.1.zip"
+hash-format = "sha512"
+hash = "e2c137a1af59b8832679160db762bee0235eed6401acd11a03789a978d3878db13a69f7c0fe18e16520fc9a8ff903cfada1d24c30e1aa33b9c47ebeefda8ca77"
 
 [update]
-[update.curseforge]
-file-id = 7339307
-project-id = 322713
+[update.modrinth]
+mod-id = "6GgEjSHS"
+version = "rCh8D1wH"

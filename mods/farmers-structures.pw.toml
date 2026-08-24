@@ -3,11 +3,11 @@ filename = "FarmersStructures-1.0.2-1.21.1_neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "72c8a17af70dd78a045b4b2678b8ac2d1a2b7d39"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/iYGRt6QB/versions/MEsGDnri/FarmersStructures-1.0.2-1.21.1_neoforge.jar"
+hash-format = "sha512"
+hash = "cacea687bf16e8a3ec6a1b46fa5323490a3aef9e970bbe882b3f13bd219fe6b044f04ba092c5c7d89e8670ec88120c5b1fab860c52795f1c27dd67e5173de4c4"
 
 [update]
-[update.curseforge]
-file-id = 7280584
-project-id = 1088877
+[update.modrinth]
+mod-id = "iYGRt6QB"
+version = "MEsGDnri"

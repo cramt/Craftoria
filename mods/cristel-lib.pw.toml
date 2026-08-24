@@ -3,11 +3,11 @@ filename = "cristellib-neoforge-1.21.1-3.1.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "059af270156368f9573fed7ec2ba009af6fd2a51"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/cl223EMc/versions/bDd8Xl0w/cristellib-neoforge-1.21.1-3.1.4.jar"
+hash-format = "sha512"
+hash = "3bbe948a15e6585a0333971876f9dbde1eacc9c6ad856b3c5ae642c16f1a1ae3d1ba71a5853a89ecd65191c7688b9ddd49d72c68ec9c26d1fa8d28ec9106c254"
 
 [update]
-[update.curseforge]
-file-id = 8124286
-project-id = 856996
+[update.modrinth]
+mod-id = "cl223EMc"
+version = "bDd8Xl0w"

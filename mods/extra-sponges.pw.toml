@@ -3,11 +3,11 @@ filename = "extrasponges-neoforge-1.21-1.6.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a9716730b2adc1952e87c795c150c5ed38b58f68"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/poGrqY8n/versions/oMedWN0d/extrasponges-neoforge-1.21-1.6.1.jar"
+hash-format = "sha512"
+hash = "2c3c269aad1a3dcb7446576440874881e1f71b6e0387973c89126c65ab368ba24b77d3198da6e3e09274bc9a20b7ff1aeb8a518f11166f46ee1d279002e3d4ce"
 
 [update]
-[update.curseforge]
-file-id = 5904250
-project-id = 457043
+[update.modrinth]
+mod-id = "poGrqY8n"
+version = "oMedWN0d"

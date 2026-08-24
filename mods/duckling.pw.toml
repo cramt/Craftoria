@@ -3,11 +3,11 @@ filename = "duckling-neoforge-1.21-5.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3fd5c8bf22b617485a8892d0e3625a0ed4a5ec72"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/jkb861Ih/versions/RdzrVLjE/duckling-neoforge-1.21-5.0.1.jar"
+hash-format = "sha512"
+hash = "47d7cb734f3d0a40ff083fbf48b854118e145ac6405c379ae828510077c8eb6462ac73b7c18355be31a95ef0bed740a25248a02ad7802764f4c3ede91a064760"
 
 [update]
-[update.curseforge]
-file-id = 5512145
-project-id = 597248
+[update.modrinth]
+mod-id = "jkb861Ih"
+version = "RdzrVLjE"

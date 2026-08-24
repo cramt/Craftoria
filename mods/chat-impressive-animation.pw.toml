@@ -3,11 +3,11 @@ filename = "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bad1bb38da6b68c5d418f2b9ef02f4bc96759685"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/DnL1AGAI/versions/bt7XHLNp/ChatImpressiveAnimation-neoforge-1.6.0%2Bmc1.21.5.jar"
+hash-format = "sha512"
+hash = "18ffcf98b81ae99b259419498b62e706f36e05c9f83e75be496fa572605f1971539681b2a4c2d10844de4493a6cebbc91b6357a0226fc977373d1ab319ec16c1"
 
 [update]
-[update.curseforge]
-file-id = 7949535
-project-id = 972468
+[update.modrinth]
+mod-id = "DnL1AGAI"
+version = "bt7XHLNp"

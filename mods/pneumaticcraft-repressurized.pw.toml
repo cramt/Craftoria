@@ -3,11 +3,11 @@ filename = "pneumaticcraft-repressurized-8.2.20+mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "19b3bdb7f2aa135b1d638ba2195968c443889ce5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ncAcdgk7/versions/jExIFMt7/pneumaticcraft-repressurized-8.2.20%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "7ad486e1b70a20f012d34356c65b02ea9972eabbf366675fbb4fb5c524040efd585c9e772bb8b94bf02244a34d55b41045ff426458bc91f734fbf58df5e8f570"
 
 [update]
-[update.curseforge]
-file-id = 8062194
-project-id = 281849
+[update.modrinth]
+mod-id = "ncAcdgk7"
+version = "jExIFMt7"

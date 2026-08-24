@@ -3,11 +3,11 @@ filename = "hazentouvelib-1.0.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3414ed7be09deda989328f64af1564c6396f82c4"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/nZaIUw7C/versions/TN2jtJDF/hazentouvelib-1.0.6.jar"
+hash-format = "sha512"
+hash = "4bb1c1cf834db4c77c7a02f384ced5e4f32a45feeec7336bbe6f3634a6c946f5c31547cee1605ca0199ad4590fcdb7eac4385469faf9f7d9e8f3ca97d7d8fad1"
 
 [update]
-[update.curseforge]
-file-id = 8099176
-project-id = 1528722
+[update.modrinth]
+mod-id = "nZaIUw7C"
+version = "TN2jtJDF"

@@ -3,11 +3,11 @@ filename = "Solas Shader V3.4.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "370bfdf5de02aca727517050b407afc761767f35"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/EpQFjzrQ/versions/syqezVYV/Solas%20Shader%20V3.4.zip"
+hash-format = "sha512"
+hash = "99300ad2b9fdd33162fff571b9df089b7b09189c050fc2da7c51c5c54780d024faa952c4083cbcb5596c115be09c8f9764d92afc61b13ad0919cfeeab6168b1f"
 
 [update]
-[update.curseforge]
-file-id = 7686239
-project-id = 678384
+[update.modrinth]
+mod-id = "EpQFjzrQ"
+version = "syqezVYV"
