@@ -22037,11 +22037,6 @@ hash = "1b4488586656bee12b46dbc4733f5dbbba6e50f4c478aa0b7d4e369f44fec184"
 metafile = true
 
 [[files]]
-file = "resourcepacks/better-sophisticated-backpack-upgrades-bsbu.pw.toml"
-hash = "2c43e1a25c86c6f0137f37faf66e1183c7c0b08013b9be6be752e7439ba15df6"
-metafile = true
-
-[[files]]
 file = "resourcepacks/blinking-ender-eyes.pw.toml"
 hash = "10bb83541b4052bad820661b7f0439337402560194fd30b73c0b1513d20a9d4b"
 metafile = true
@@ -22064,11 +22059,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/construction-sticks-grips.pw.toml"
 hash = "8c7572ce1f057dce7afd8f7cafc68c0263c15315782c3d582a7acb829f1005be"
-metafile = true
-
-[[files]]
-file = "resourcepacks/craftoria-chinese-translation-resource.pw.toml"
-hash = "d6efa20961666ef563eee1eb54e86e22467ea0ec2834f5b158bc76c7de541f57"
 metafile = true
 
 [[files]]
@@ -22127,11 +22117,6 @@ hash = "4976b80fa9418a442718528f8cfe6cbeae561a867362ce94be10ffe18df9b329"
 metafile = true
 
 [[files]]
-file = "resourcepacks/irons-spells-n-spellbooks-armors-overhaul.pw.toml"
-hash = "a524b14eb008b3b52a52705843601e5b0f3a1fd5ef2a81de792dd5f744298b1e"
-metafile = true
-
-[[files]]
 file = "resourcepacks/mob-grinding-utils-vanillafied.pw.toml"
 hash = "742dfde4fa49b58df6fde050d102e5ff574832b692f0f7a7f3050aab65966f58"
 metafile = true
@@ -22142,21 +22127,6 @@ hash = "600dfde643ec75722db3131049027d29fb724bb2357fc60e033774942939b71b"
 metafile = true
 
 [[files]]
-file = "resourcepacks/pixels-simple-hud.pw.toml"
-hash = "56983fadc592145486f0d635081d1a228b9abefa33552d01f65af5f21ce25292"
-metafile = true
-
-[[files]]
-file = "resourcepacks/pretty-x-smart-pipez-mekanism-edition.pw.toml"
-hash = "6d1b256814df6c7f26dfabea9d7854220915bb2ce96cbf44c7962c23074eb6ee"
-metafile = true
-
-[[files]]
-file = "resourcepacks/pretty-x-smart-pipez.pw.toml"
-hash = "75b811a77e333696a0b8eafc723ae206ede852c880c89cb4a0eacebb45deba86"
-metafile = true
-
-[[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"
 hash = "251712e6477e02c63fcd1bd53344b560d375a542e4ca52935211263860d93d46"
 metafile = true
@@ -22164,11 +22134,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/stay-true.pw.toml"
 hash = "e53a1e480f2a8051cc6581a0d7323fb3b31c317562caa12c37eab9e952cc9300"
-metafile = true
-
-[[files]]
-file = "resourcepacks/suren-ss.pw.toml"
-hash = "4793da32d65415ce11eaf080236ccdbbceee3f96ef31a816ad0579baf48a664f"
 metafile = true
 
 [[files]]
