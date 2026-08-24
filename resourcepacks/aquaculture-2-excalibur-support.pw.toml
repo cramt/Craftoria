@@ -1,0 +1,13 @@
+name = "Excalibur | Aquaculture 2"
+filename = "Aquaculture 2 Excalibur Support.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2gOp5qkl/versions/NTbMEzrN/Aquaculture%202%20Excalibur%20Support.zip"
+hash-format = "sha512"
+hash = "5bec4b98b0314462e667e1c5208417ea26675fae63179d2a7c5ea29f267795b7fae6c0dcd106aa35fd8c589d7acf02cc7daeeca6377da9d411693f33419d5232"
+
+[update]
+[update.modrinth]
+mod-id = "2gOp5qkl"
+version = "NTbMEzrN"
