@@ -16,6 +16,7 @@
 !/.gitattributes
 !/manifest.json
 !/.github
+!/distribution
 !.editorconfig
 !.prettierrc.json
 !InstanceSync.jar

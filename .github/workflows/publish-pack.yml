@@ -1,0 +1,84 @@
+name: Publish pack
+
+# Publishes the packwiz pack to GitHub Pages and builds the Prism instance zip.
+# Friends import the instance once; packwiz-installer re-syncs it on every launch,
+# so pushing to main is all that is needed to ship an update.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  BOOTSTRAP_VERSION: v0.0.3
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh index
+        run: packwiz refresh
+
+      # A stale index means someone edited a pin without running `packwiz refresh`.
+      # Publishing it anyway would hand clients hashes that do not match the files.
+      - name: Fail if the committed index was stale
+        run: |
+          if ! git diff --quiet -- index.toml pack.toml; then
+            echo "::error::index.toml/pack.toml were out of date. Run 'packwiz refresh' and commit the result."
+            git diff --stat -- index.toml pack.toml
+            exit 1
+          fi
+
+      - name: Build Prism instance zip
+        run: |
+          set -euo pipefail
+          work=$(mktemp -d)
+          cp -r distribution/prism/. "$work"/
+          mkdir -p "$work/.minecraft"
+          curl -fsSL -o "$work/.minecraft/packwiz-installer-bootstrap.jar" \
+            "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/${BOOTSTRAP_VERSION}/packwiz-installer-bootstrap.jar"
+          ( cd "$work" && zip -qr "$GITHUB_WORKSPACE/Craftoria-Prism.zip" . )
+          echo "instance zip: $(du -h Craftoria-Prism.zip | cut -f1)"
+
+      - name: Assemble Pages site
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          # Everything packwiz-installer needs: pack.toml, index.toml and every
+          # file the index references (mod metadata, configs, kubejs, ...).
+          # Excludes are anchored with a leading slash so they only match at the
+          # repo root. An unanchored '*.zip' would strip the OpenLoader resource
+          # packs under config/openloader/packs/, which are indexed pack content.
+          rsync -a --exclude '/.git' --exclude '/.github' --exclude '/_site' \
+                   --exclude '/distribution' --exclude '/Craftoria-Prism.zip' \
+                   ./ _site/
+          cp Craftoria-Prism.zip _site/
+          cp distribution/index.html _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
