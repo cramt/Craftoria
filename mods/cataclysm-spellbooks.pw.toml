@@ -3,11 +3,11 @@ filename = "cataclysm_spellbooks-1.1.12-1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f3b5fd93ad12f5129132e25d025dc8a2fc399f5b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/3FEg0A8D/versions/5NYz9vZy/cataclysm_spellbooks-1.1.12-1.21.jar"
+hash-format = "sha512"
+hash = "a38b56ce6d93a5a82c9649dfd56e5656f8af1977474d6a1cde4c0aef9689c66d12481833447f856047f6a4b35a1560954f3eb247c9df55e3bd78e2cbd6e3a248"
 
 [update]
-[update.curseforge]
-file-id = 8176463
-project-id = 1099461
+[update.modrinth]
+mod-id = "3FEg0A8D"
+version = "5NYz9vZy"

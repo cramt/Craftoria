@@ -3,11 +3,11 @@ filename = "wtc-1.21.1-0.1.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "90c07906636a698ac093814c0d7065f47b1624a5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/AsqNh2g2/versions/uJvwazSh/wtc-1.21.1-0.1.3.jar"
+hash-format = "sha512"
+hash = "09f0ee1a0be9428a57e96ea312b6792d059e9b87b0703dc1d71e7399aa45b763ca523908787c74468224bf793300deb20daf933678d14d6fb121f94f42cbe5f0"
 
 [update]
-[update.curseforge]
-file-id = 8408593
-project-id = 1602480
+[update.modrinth]
+mod-id = "AsqNh2g2"
+version = "uJvwazSh"

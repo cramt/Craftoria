@@ -3,11 +3,11 @@ filename = "revelationary-neoforge-1.5.1+1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "df7a49309c89eed6acc1159efad413b318542698"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/eXrl5E3G/versions/3XGPyKNr/revelationary-neoforge-1.5.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "d619b96beb07088ed6f82f3b9dc4208bb03bea37ce629b41e8e732b01f35945ef2a7cd5206303b2d6b80529dedd5a92674b1d83a32c321752aedadbfcd3afe71"
 
 [update]
-[update.curseforge]
-file-id = 8664567
-project-id = 656526
+[update.modrinth]
+mod-id = "eXrl5E3G"
+version = "3XGPyKNr"

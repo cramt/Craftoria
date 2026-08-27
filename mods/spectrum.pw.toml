@@ -3,11 +3,11 @@ filename = "spectrum-1.12.5-1.21.1-neo.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0d43836b52b8d267cb28d9a0b59bfab067f0f509"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/3rc31Hgo/versions/cE3gyVDM/spectrum-1.12.5-1.21.1-neo.jar"
+hash-format = "sha512"
+hash = "9505143ba60225e5139cb4fb22ee1d367b2c91e6c91894e25fba45a7a2eb28136b8f3ea95746c9d078691b878a1262bef139ba2dbeff2ed3c788f6b9ddeda47d"
 
 [update]
-[update.curseforge]
-file-id = 8679750
-project-id = 556967
+[update.modrinth]
+mod-id = "3rc31Hgo"
+version = "cE3gyVDM"

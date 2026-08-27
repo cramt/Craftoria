@@ -3,11 +3,11 @@ filename = "transfer_labels-0.1.9.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b25faa4331f7f3e9f1fa133aa96f1e0a9a14ba52"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hRrzpz5p/versions/kP9SwaJT/transfer_labels-0.1.9.jar"
+hash-format = "sha512"
+hash = "b4d25ba020ae3a0fba7eeca09d25ca0c43fb90c2fcbb4660b799d57ed3924eae1bf3c4b174b958c2535d39c3465862ddadb1e2a1af3cb100cb6c9c593dc9625f"
 
 [update]
-[update.curseforge]
-file-id = 8571215
-project-id = 1184406
+[update.modrinth]
+mod-id = "hRrzpz5p"
+version = "kP9SwaJT"

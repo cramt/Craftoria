@@ -3,11 +3,11 @@ filename = "Enhanced-Celestials-2-Shaders-NeoForge-1.21.1-2.0.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "85080b32750bfbbf6be16a679432de5b70e53a9e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/6cEnKtmZ/versions/qv7qf7E0/Enhanced-Celestials-2-Shaders-NeoForge-1.21.1-2.0.0.1.jar"
+hash-format = "sha512"
+hash = "7cc84db3dc33ebfaf1cc0f5af0861ee40921670932337aabee1d69d76972f803d1565c5df0327a109aa8d5ce16bb6a3f345534e45641852e7980d0b511812e4e"
 
 [update]
-[update.curseforge]
-file-id = 8687072
-project-id = 1621851
+[update.modrinth]
+mod-id = "6cEnKtmZ"
+version = "qv7qf7E0"

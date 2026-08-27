@@ -3,11 +3,11 @@ filename = "createschematicchecker-2.27.43-6.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "90780554c1df052b1bcba2e3965d611228a02e4a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ULzrAD1U/versions/gv3dSSWc/createschematicchecker-2.27.43-6.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "1a011f4a73f71fc9be440435e2e8542e4ce983db47a6098f4d35282d73e0e019f2f82c9c20a4a9c8e0548face728e821a4ba44d0e7a31a3d6133ff6e6f5180c9"
 
 [update]
-[update.curseforge]
-file-id = 8647115
-project-id = 1357430
+[update.modrinth]
+mod-id = "ULzrAD1U"
+version = "gv3dSSWc"

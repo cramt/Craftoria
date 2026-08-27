@@ -3,11 +3,11 @@ filename = "mekanism_extras-1.21.1-1.4.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "09a8aae6205513bbb29c29dc6be9487c598c451b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/HUZkxNTQ/versions/fqPYikeY/mekanism_extras-1.21.1-1.4.1.jar"
+hash-format = "sha512"
+hash = "03abb79bc79adab24fd674ab4d5fc84aedcde94a2304d199ebba59c6cef4c8a6283a59fd8d02b2ec0a85c832903c671db7b1f915718b4626d2bd9ed681557761"
 
 [update]
-[update.curseforge]
-file-id = 8677677
-project-id = 1026040
+[update.modrinth]
+mod-id = "HUZkxNTQ"
+version = "fqPYikeY"

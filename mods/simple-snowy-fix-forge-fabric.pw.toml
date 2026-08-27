@@ -3,11 +3,11 @@ filename = "simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5f4e0b9269662504018a23b291ad65131213336b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/3WP3HZRG/versions/UlwusT7e/simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar"
+hash-format = "sha512"
+hash = "30478b1d25e991baca1c203733071d21522108f21f2c3b8f371f607772a2d18a6cd6520e98dcf38922d8678feb7cc3cd2b125258b8f5f1209fca8400b1c1308d"
 
 [update]
-[update.curseforge]
-file-id = 8274107
-project-id = 1211256
+[update.modrinth]
+mod-id = "3WP3HZRG"
+version = "UlwusT7e"

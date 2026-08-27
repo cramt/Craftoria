@@ -3,11 +3,11 @@ filename = "starcatcher-3.0.6-NEOFORGE-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "52c83ec5675fa8dca0664c5fb33c871b570ec082"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/h2jXvxNR/versions/gDYg666K/starcatcher-3.0.6-NEOFORGE-1.21.1.jar"
+hash-format = "sha512"
+hash = "a4b08ead81b34f27bde2407c0603dad3d11f8b7e9f5f4234c98a2a1f7b6268bc53d8d549ee39b4e3c7761b8e3410203b8522d2e599f13059933b427cb07a309b"
 
 [update]
-[update.curseforge]
-file-id = 8431589
-project-id = 1357603
+[update.modrinth]
+mod-id = "h2jXvxNR"
+version = "gDYg666K"

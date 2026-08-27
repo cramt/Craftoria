@@ -3,11 +3,11 @@ filename = "neovitae-1.21.1-1.1.14.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "559093cb60ab0f706ada16b758c756cffe07c736"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rvaW4C93/versions/cervGhbv/neovitae-1.21.1-1.1.14.jar"
+hash-format = "sha512"
+hash = "c3fe90017113129a59cce66c1dafa6928b1d8bc4fb7e913778ba6c22e4ffd97eca13e52587a8d1c18e093f83665d84270cb102ff1f74b795133c48a6d9f91e91"
 
 [update]
-[update.curseforge]
-file-id = 8711698
-project-id = 1404763
+[update.modrinth]
+mod-id = "rvaW4C93"
+version = "cervGhbv"

@@ -3,11 +3,11 @@ filename = "Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1c170062c486bd25a1161571b6c3cf9e6371611b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/aecUorJQ/versions/HWz24fIm/Super%20Factory%20Manager%20%28SFM%29-MC1.21.1-4.34.0.jar"
+hash-format = "sha512"
+hash = "c8897ecdc3659c9a06ce1dabe2f81d55888f425ddc3c7e2ddeb48d95d73c3b887eb135455d7d5a3da1915c4c6dc693b0e113413d323334137f808cb3871c9158"
 
 [update]
-[update.curseforge]
-file-id = 8370241
-project-id = 306935
+[update.modrinth]
+mod-id = "aecUorJQ"
+version = "HWz24fIm"

@@ -3,11 +3,11 @@ filename = "findme-3.3.4-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "03c82a2fd81f70bddf0da087ccfb27196c631481"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rEuzehyH/versions/OYTXQUUB/findme-3.3.4-neoforge.jar"
+hash-format = "sha512"
+hash = "e39ef6e3d5368e3548b0870a62f2b7061b16a9b97b14eb5f7042c971ee006f7ceef355018631775b731c620219738f6647c560dd24ae1c856e077ef9b7a7936b"
 
 [update]
-[update.curseforge]
-file-id = 7069312
-project-id = 291936
+[update.modrinth]
+mod-id = "rEuzehyH"
+version = "OYTXQUUB"

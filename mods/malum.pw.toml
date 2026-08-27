@@ -3,11 +3,11 @@ filename = "malum-1.21.1-1.8.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7bea3f874f186a17ad3e271df145c179e81c2a1d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/jgzwYsAN/versions/BIbVs1fo/malum-1.21.1-1.8.2.jar"
+hash-format = "sha512"
+hash = "dd9ccc1dea3b090f69f807be3e7a8b99ec6d3d7d6b047e2893cb49ca505860bbf640cf767082c1a32ea403b35e2a9f9d1755327890bbfb2f8778058a9597a99e"
 
 [update]
-[update.curseforge]
-file-id = 7307339
-project-id = 484064
+[update.modrinth]
+mod-id = "jgzwYsAN"
+version = "BIbVs1fo"

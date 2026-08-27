@@ -3,11 +3,11 @@ filename = "rusticdelight-neoforge-1.21-1.7.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "697df889af0cec1823cf5330fca62bf7f6e5037f"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/foa4fGIH/versions/sAaG4pSA/rusticdelight-neoforge-1.21-1.7.1.jar"
+hash-format = "sha512"
+hash = "1aa22e862f0775699782ee20aa5cf75ce528404711cf8587cb7a732c710aa76f4d14035d2cdd0ed92980eb5f9388765b7f17a5aa31bdeadb85382aad488a6d2a"
 
 [update]
-[update.curseforge]
-file-id = 8549320
-project-id = 1106612
+[update.modrinth]
+mod-id = "foa4fGIH"
+version = "sAaG4pSA"

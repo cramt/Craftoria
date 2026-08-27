@@ -21,9 +21,15 @@ Official discord server (Team AOF): https://discord.gg/6rkdm48
 
 # Fork notes
 
-This fork tracks Craftoria **1.31.0** (upstream `TeamAOF/Craftoria`, commit `3483b7e`) and adds
-Create Aeronautics. Every deviation from the published 1.31.0 modlist is listed below with the
+This fork tracks Craftoria **1.32.1** (upstream `TeamAOF/Craftoria`, commit `61eb11d`) and adds
+Create Aeronautics. Every deviation from the published 1.32.1 modlist is listed below with the
 reason it exists and the condition under which it can be dropped.
+
+At 1.31.0 this fork also carried an Embeddium -> Sodium swap (with matching Iris, Supplementaries,
+and Monocle changes) because Sable bundles Veil, which requires Sodium >= 0.8.12-alpha.2. Upstream
+made the same swap itself in 1.32.0, so those deviations are gone. The Veil floor still applies:
+if upstream ever pins Sodium below 0.8.12-alpha.2, the old fork pins come back (see the fork-notes
+table as of commit `88393db`).
 
 ## Added
 
@@ -32,20 +38,13 @@ reason it exists and the condition under which it can be dropped.
 | Create Aeronautics 1.3.1 | The point of the fork. |
 | Sable 2.0.5 | Required by Create Aeronautics. Bundles Veil. |
 
-## Forced by the above
-
-| Change | Why | Removable when |
-| --- | --- | --- |
-| Embeddium -> Sodium + Sodium Extra | Sable bundles Veil, which requires Sodium >= 0.8.12-alpha.2 and refuses to load alongside Embeddium. | Never, while Sable is present. |
-| Iris 1.8.12 -> 1.8.14-beta.1 | 1.8.12 targets the Embeddium pipeline; 1.8.14 is the Sodium 0.8.x build. | Never, while Sodium is present. |
-| Supplementaries 3.6.5 -> 3.6.8 | 3.6.5's Sodium compat mixin injects at `ColorProvider.getColors(...)` with 6 args; Sodium >= 0.8.12-alpha.2 added a 7th (`boolean`), so the injection matches nothing and hard-crashes on fluid rendering. 3.6.8 is the first release targeting the new signature. | Never, while Sodium is present. Upstream pairs Sodium with 3.9.1. |
-| Monocle **removed** | Monocle is an Embeddium<->Iris bridge ("Allows Iris to use the Embeddium pipeline"). Its nested `monocle-mod-file.jar` declares `type="required"` on both `embeddium [1.0.7,)` and an exact Iris version. It cannot load without Embeddium. | Never, while Sodium is present. **Do not "restore" it** — its absence is deliberate. |
-
 ## Forced by CurseForge distribution flags
 
 | Change | Why |
 | --- | --- |
 | Antique Trading Ship 1.4.0 -> 1.3.0 | 1.4.0 is flagged "excluded from the CurseForge API" and cannot be fetched by third-party clients. Modrinth only carries 1.3.0. |
+| 7 resourcepacks **removed** (Better Sophisticated Backpack Upgrades, Craftoria Chinese Translation, Iron's Spells Armors Overhaul, Pixel's Simple HUD, Pretty x Smart Pipez + Mekanism Edition, SUREN SS) | Flagged "excluded from the CurseForge API" with no Modrinth copy; a from-scratch install aborts on them. Details in commit `88393db`. |
+| EMI QoL Tweaks **removed** (added upstream in 1.32.x) | Same flag, CurseForge-only, no Modrinth/GitHub copy. It is client-side EMI/FTB-Quests UI polish, so dropping it costs a convenience, not content. |
 
 ## Mod sources
 
@@ -53,3 +52,6 @@ Pins prefer Modrinth wherever Modrinth hosts the **byte-identical jar** (matched
 version drift). Mods with no Modrinth copy stay on CurseForge. Some CurseForge files are flagged
 non-distributable and will make `packwiz-installer` stop and ask for a manual download; moving
 those to Modrinth (at the same version) is the fix where one exists.
+
+The re-sourcing is scripted: after merging an upstream release, run
+`bun automation/scripts/src/prefer-modrinth.js` followed by `packwiz refresh`.

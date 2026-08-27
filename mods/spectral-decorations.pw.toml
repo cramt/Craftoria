@@ -3,11 +3,11 @@ filename = "SpectralDecorations-1.9.1-1.21.1-neo.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4b151ed1903e00d9cc8b428a167ec15b156193f2"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OtSTiI0D/versions/fNnWkuNh/SpectralDecorations-1.9.1-1.21.1-neo.jar"
+hash-format = "sha512"
+hash = "ea1670fa017d562ef7e775c34dd3b7fc71c7693091d5f030f2e9c3ba592b70c841e573279bb4d26e7be0c48e8e34f21a4e0a306276b2bb5f3b0b54e29f1a698b"
 
 [update]
-[update.curseforge]
-file-id = 8672618
-project-id = 990498
+[update.modrinth]
+mod-id = "OtSTiI0D"
+version = "fNnWkuNh"

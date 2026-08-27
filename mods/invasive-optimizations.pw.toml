@@ -3,11 +3,11 @@ filename = "invasiveopts-1.0.23.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b513a315f8db2721a10977df732214c6044527dd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/pynl8zUh/versions/avSwrtPS/invasiveopts-1.0.23.jar"
+hash-format = "sha512"
+hash = "9826f0c18b36b1e5532beb278ae743ac656ce3001cf9701c788556ab066aa17d85c11850501e2a281359e2a1aeca0c7a01baa12f6abfeb954fdc6a667e8b7913"
 
 [update]
-[update.curseforge]
-file-id = 8559327
-project-id = 1528432
+[update.modrinth]
+mod-id = "pynl8zUh"
+version = "avSwrtPS"

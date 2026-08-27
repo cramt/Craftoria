@@ -3,11 +3,11 @@ filename = "iris_shader_folder-1.4.1-neoforge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b5c72afa8318d6d92125ad74621d22e413b53497"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yv6sGJzN/versions/RdmddaSy/iris_shader_folder-1.4.1-neoforge.jar"
+hash-format = "sha512"
+hash = "5b3e7f9b50ade95700caf34c0789da22f9e52a6596a9dbf0408075c7caca1a5453a6437a106216cf1b964a613e639d56683400ec2b626c21b07094449cb3e2bb"
 
 [update]
-[update.curseforge]
-file-id = 8512633
-project-id = 1351246
+[update.modrinth]
+mod-id = "yv6sGJzN"
+version = "RdmddaSy"

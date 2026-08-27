@@ -3,11 +3,11 @@ filename = "MultiBuilderTool-1.21.1-1.1.28.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "45cd7c4af59f1a953fee82c68435a78b3f2995cf"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/JIZTaYgu/versions/sQPhi44h/MultiBuilderTool-1.21.1-1.1.28.jar"
+hash-format = "sha512"
+hash = "c72f341ca21db76261611a42a0ca2676069b052a57495b50b15f2e47d693263aa82181601428bb6d6ed081d897d88efe9b046c3bb04155b5a2bb7c7998f2173d"
 
 [update]
-[update.curseforge]
-file-id = 8505466
-project-id = 827020
+[update.modrinth]
+mod-id = "JIZTaYgu"
+version = "sQPhi44h"

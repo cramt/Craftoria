@@ -3,11 +3,11 @@ filename = "rftoolsbuilder-1.21-7.0.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "57615d79eab2d62e6627bec543015bd4585c316e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/e0IclJLr/versions/6LuZx89G/rftoolsbuilder-1.21-7.0.6.jar"
+hash-format = "sha512"
+hash = "00088876d5c72b3a6e0e8be0fd368cd9cd718d21735df36f7aaeb7b53a1f6675288f4663a8c7316ac1a4ce98503421c9e5465d4850d07448686f4d72b6b51338"
 
 [update]
-[update.curseforge]
-file-id = 8704384
-project-id = 347706
+[update.modrinth]
+mod-id = "e0IclJLr"
+version = "6LuZx89G"

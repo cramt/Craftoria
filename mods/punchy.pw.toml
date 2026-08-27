@@ -3,11 +3,11 @@ filename = "punchy-2.7d-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9d95177d470f81b2bfc4ada5088fd0908fb21c97"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/8aoMKplv/versions/F6nWR1sw/punchy-2.7d-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "5f42431c67e61d3f8e74ad637b5911cae9257f9c7d172fdf80924ad9f957f3ddd90ca5945dfc89cada50e2ee4c84ecbff9590de942410a48b6c7febf22de58c5"
 
 [update]
-[update.curseforge]
-file-id = 8697205
-project-id = 1374153
+[update.modrinth]
+mod-id = "8aoMKplv"
+version = "F6nWR1sw"

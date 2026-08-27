@@ -3,11 +3,11 @@ filename = "waveycapes-neoforge-1.10.2-mc1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "550ef51a41ec455eb770a01e403cce66165326da"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/kYuIpRLv/versions/vdv4Zbt6/waveycapes-neoforge-1.10.2-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "8712071e1a8b8fda309512dec14ee4bb3cd3b8c70fdaf95fa199ca604648ebc1d16ac914e5d55f1f0100b1d8d3da586db828feaef8778a4c5d9d6ff0ca35ea57"
 
 [update]
-[update.curseforge]
-file-id = 8294871
-project-id = 521594
+[update.modrinth]
+mod-id = "kYuIpRLv"
+version = "vdv4Zbt6"

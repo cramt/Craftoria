@@ -3,11 +3,11 @@ filename = "Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-1.21.1-2.0.1.1.j
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d40131dd6512d165504288c9ddd1552f48ecc4f3"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/19P0GlZk/versions/JEsPJAr0/Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-1.21.1-2.0.1.1.jar"
+hash-format = "sha512"
+hash = "6ba601b8e062c2fb8f3cdf9c87f294fa970a23c0751683f70130f711d0fd49a6dd09983816c5bcadec3c2d39c58520d5701e1c6c201fcb9aaa73fc9475151510"
 
 [update]
-[update.curseforge]
-file-id = 8704053
-project-id = 1621820
+[update.modrinth]
+mod-id = "19P0GlZk"
+version = "JEsPJAr0"

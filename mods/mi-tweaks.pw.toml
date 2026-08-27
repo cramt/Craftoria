@@ -3,11 +3,11 @@ filename = "mi-tweaks-1.9.5-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c7a5db5aec6954ffd892cd8096aeec06bc68c767"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/tJGIBxPC/versions/Nm3Lzvre/mi-tweaks-1.9.5-1.21.1.jar"
+hash-format = "sha512"
+hash = "1697da75a3ac3b91382506dd4eeba1a5ff3e4cae202d2cd6eba7bc7d01e566b597a77c8a2a455958acb1d81fd2c97c5933d06dc7122edbd58b687bc02d2eabb3"
 
 [update]
-[update.curseforge]
-file-id = 8708184
-project-id = 1068413
+[update.modrinth]
+mod-id = "tJGIBxPC"
+version = "Nm3Lzvre"

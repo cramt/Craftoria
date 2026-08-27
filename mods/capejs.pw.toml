@@ -3,11 +3,11 @@ filename = "capejs-1.1.1-1.21.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "972791ecd487d120cfe29655ddf8086d5788a2ef"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/BfY01IQg/versions/2jAT3aIj/capejs-1.1.1-1.21.jar"
+hash-format = "sha512"
+hash = "f269bb13767df6708f980b57504884987c6e03821e7a25c4004462fa05903b54050be5df29b3018361bd1a58ecd32e7355b6ddab3a7f89cea7fb8c4cf8a6ed06"
 
 [update]
-[update.curseforge]
-file-id = 8527614
-project-id = 911145
+[update.modrinth]
+mod-id = "BfY01IQg"
+version = "2jAT3aIj"
