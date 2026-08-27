@@ -1,13 +1,13 @@
 name = "CapeJS"
-filename = "capejs-1.1.0-1.21.jar"
+filename = "capejs-1.1.1-1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BfY01IQg/versions/aB9aDCDH/capejs-1.1.0-1.21.jar"
-hash-format = "sha512"
-hash = "001da3f6fac5156cfb7b72a0f04fd5799f3ceda8d932b085d87ef07afbe4904a10897cef6dc17f3ee95b232c251eab31c35f841e01b2e792aab9a8032f67c758"
+hash-format = "sha1"
+hash = "972791ecd487d120cfe29655ddf8086d5788a2ef"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "BfY01IQg"
-version = "aB9aDCDH"
+[update.curseforge]
+file-id = 8527614
+project-id = 911145

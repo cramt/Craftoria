@@ -1,13 +1,13 @@
 name = "Mech Trowel"
-filename = "mechtrowel-1.3.2.jar"
+filename = "mechtrowel-1.3.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nqFNRALS/versions/KHmmx9lq/mechtrowel-1.3.2.jar"
-hash-format = "sha512"
-hash = "fde75f3720bbb9efac2cd86332da0fd61bb40873b5dab4149a899b56b0daed5a63e1eecf497878aeb1b9fa8ba3a6855650e5ce795e9748ea1080a2cb1b1f330f"
+hash-format = "sha1"
+hash = "7ad5af81b15d48f08f12fa4a5faf668101f14248"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "nqFNRALS"
-version = "KHmmx9lq"
+[update.curseforge]
+file-id = 8126896
+project-id = 1288799

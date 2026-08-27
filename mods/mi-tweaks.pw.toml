@@ -1,13 +1,13 @@
 name = "MI Tweaks"
-filename = "mi-tweaks-1.9.0-1.21.1.jar"
+filename = "mi-tweaks-1.9.5-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tJGIBxPC/versions/BCpb4U2u/mi-tweaks-1.9.0-1.21.1.jar"
-hash-format = "sha512"
-hash = "3d4e3d3c2558497845d4662c42776f06a1b3056d9774df2be070cfc3610f45129625f33fca8fab3e4c78d7055be14acceb995adc0aa26f257548e3c958acc9b4"
+hash-format = "sha1"
+hash = "c7a5db5aec6954ffd892cd8096aeec06bc68c767"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "tJGIBxPC"
-version = "BCpb4U2u"
+[update.curseforge]
+file-id = 8708184
+project-id = 1068413

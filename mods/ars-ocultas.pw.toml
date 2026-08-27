@@ -1,13 +1,13 @@
 name = "Ars Ocultas"
-filename = "ars_ocultas-1.21.1-2.4.1.jar"
+filename = "ars_ocultas-1.21.1-2.6.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Tsw8vbks/versions/jCboclxm/ars_ocultas-1.21.1-2.4.1.jar"
-hash-format = "sha512"
-hash = "1d450b7c6e19f105775fa900b9463debfb35617dd49ce77c862efda37a005f9b32548650d255301772677f7a5c2628d5638cdd6ecc636502950b2e8cb9091ff0"
+hash-format = "sha1"
+hash = "92c5e7fcbf07141fc8bb0195e28ed9c3e77e1004"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "Tsw8vbks"
-version = "jCboclxm"
+[update.curseforge]
+file-id = 8586886
+project-id = 907843

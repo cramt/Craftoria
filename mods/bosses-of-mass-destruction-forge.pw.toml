@@ -1,13 +1,13 @@
 name = "Bosses of Mass Destruction [Forge | NeoForge]"
-filename = "BOMD-NeoForge-1.21-1.3.2.jar"
+filename = "BOMD-NeoForge-1.21-1.3.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hFUzfDsn/versions/HMIiPvSY/BOMD-NeoForge-1.21-1.3.2.jar"
-hash-format = "sha512"
-hash = "a0d8ee00f1190a6e35b1e03a6f088c2d559fd1cf9ea1e5a2f87698442bf800a2cee7bbacc9a02014b7805629b926f07f7183b68403a26815b6dc65a372885576"
+hash-format = "sha1"
+hash = "446ff63afb858ad49149d24b72541739de83d38d"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "hFUzfDsn"
-version = "HMIiPvSY"
+[update.curseforge]
+file-id = 8448640
+project-id = 941573
